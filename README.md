@@ -14,14 +14,8 @@ The input function of PyWebIO is blocking, and the output function will output c
 By default, PyWebIO uses WebSocket protocol for server-browser communication. Though, one can easily opt to use HTTP polling instead for server-browser communication.
 With PyWebIO, I was able to build an interactive web app simply with just Markdown, without the need to have knowledge of HTML and JS.
 
-# Installation
+# Changes
 
-```sh
-pipenv install --dev
-```
-
-# How to Run
-
-```sh
-pipenv run python3 app.py --debug=True
-```
+1. Deployment method: The original project was made for Heroku deployment. Here we only keep the main function.
+2. Support to data persistence. Saving tasks[] data to a local file.
+3. Re-organize the table display logic.
