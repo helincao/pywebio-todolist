@@ -1,4 +1,4 @@
-<h1 align="center"><strong>To-Do List</strong></h1>
+*The repo is forked from https://github.com/ngshiheng/pywebio-todolist. Updates made here are listed in the 'Changes" section*
 
 <p align="center">
   <img src="https://imgur.com/YvFny7S.png">
